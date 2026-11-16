@@ -1,0 +1,14 @@
+{
+  "hytter": [
+    {
+      "id": 2,
+      "navn": "Fjellhytta",
+      "sted": "Geilo"
+    },
+    {
+      "id": 3,
+      "navn": "Skogstua",
+      "sted": "Lillehammer"
+    }
+  ]
+}

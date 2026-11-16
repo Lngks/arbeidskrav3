@@ -1,0 +1,35 @@
+# Avhengigheter
+node_modules/
+
+# Byggeresultat
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Miljøvariabler og hemmeligheter
+.env
+.env.*
+!.env.example
+*.local
+
+# Logger
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Cache og testresultater
+.vite/
+.eslintcache
+coverage/
+
+# Editor og OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+.DS_Store
+Thumbs.db

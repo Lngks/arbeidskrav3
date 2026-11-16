@@ -1,0 +1,26 @@
+### GET alle hytter
+GET http://localhost:3030/api/cabins
+
+### POST ny hytte
+POST http://localhost:3030/api/cabins
+Content-Type: application/json
+
+{ "name": "Testbu", "kind": "Ubetjent", "beds": 4, "region": "Nordfjell", "description": "Liten testbu" }
+
+### PUT oppdater hytte (bytt id)
+PUT http://localhost:3030/api/cabins/4
+Content-Type: application/json
+
+{ "name": "Testbu 2", "kind": "Selvbetjent", "beds": 6, "region": "Grønnmark", "description": "Endret testbu" }
+
+### DELETE hytte (bytt id)
+DELETE http://localhost:3030/api/cabins/4
+
+### GET turmål
+GET http://localhost:3030/api/destinations
+
+### GET alle turer
+GET http://localhost:3030/api/hikes
+
+### GET turer med filter
+GET http://localhost:3030/api/hikes?difficulty=Enkel&region=Grønnmark&q=vann

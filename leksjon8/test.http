@@ -1,0 +1,19 @@
+### GET alt
+GET http://localhost:3030/hytter
+
+### POST
+POST http://localhost:3030/hytter/
+Content-Type: application/json
+
+{ "navn": "Skogstua", "sted": "Lillehammer" }
+
+
+### PUT
+PUT http://localhost:3030/hytter/2
+Content-Type: application/json
+
+{ "navn": "Fjellhytta", "sted": "Geilo" }
+
+
+### DELETE
+DELETE http://localhost:3030/hytter/1

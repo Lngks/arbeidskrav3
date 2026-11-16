@@ -1,0 +1,151 @@
+{
+  "cabins": [
+    {
+      "id": "1",
+      "name": "Jønnbu",
+      "kind": "Betjent",
+      "beds": 42,
+      "region": "Grønnmark",
+      "description": "Betjent hytte ved foten av Lifjell, med kort vei til både løyper og stier"
+    },
+    {
+      "id": "2",
+      "name": "Øvstebu",
+      "kind": "Selvbetjent",
+      "beds": 16,
+      "region": "Nordfjell",
+      "description": "Selvbetjent hytte høyt på vidda. Utsikt mot Øysteinnatten"
+    },
+    {
+      "id": "3",
+      "name": "Sneisbu",
+      "kind": "Ubetjent",
+      "beds": 6,
+      "region": "Høyfjellet",
+      "description": "Liten ubetjent bu med ved, vann fra bekken og seks madrasser"
+    },
+    {
+      "id": "4",
+      "name": "Testbu 2",
+      "kind": "Selvbetjent",
+      "beds": 6,
+      "region": "Grønnmark",
+      "description": "Endret testbu"
+    }
+  ],
+  "hikes": [
+    {
+      "id": "utopia-toppen",
+      "name": "Utopia-toppen",
+      "region": "Nordfjell",
+      "difficulty": "Middels",
+      "duration": "4–5 timer",
+      "distance": "11 km",
+      "season": "Mai–oktober",
+      "description": "En flott dagstur med utsikt over dalen og innsjøene rundt Utopia.",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85",
+      "alt": "Fjelltopper under en lys himmel",
+      "longDescription": "Utopia-toppen er den klassiske dagsturen i Nordfjell. Stien følger først en gammel seterveg gjennom bjørkeskog, før den åpner seg mot snaufjellet og tar deg opp de siste høydemetrene over blokkmark. Fra toppen ser du over hele dalen og innsjøene rundt Utopia, og på klare dager helt til de blå åsene i sør.",
+      "start": "Parkering ved Nordfjell turistforening, 5 km fra sentrum",
+      "elevation": "620 høydemeter",
+      "highlights": [
+        "Utsikt over dalen og innsjøene",
+        "Gammel seterveg gjennom bjørkeskog",
+        "Egen rasteplass ved toppvarden"
+      ],
+      "tips": "Ta med ekstra lag med klær, vinden på toppen er kald selv om det er varmt i dalen. Siste del kan være glatt etter regn."
+    },
+    {
+      "id": "lykkevatnet",
+      "name": "Rundt Lykkevatnet",
+      "region": "Grønnmark",
+      "difficulty": "Enkel",
+      "duration": "2 timer",
+      "distance": "5 km",
+      "season": "Hele året",
+      "description": "En rolig rundtur som passer for familier og korte utflukter.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "alt": "Sti gjennom skog mot et vann",
+      "longDescription": "Rundt Lykkevatnet er en rolig og enkel tur som passer for hele familien. Stien går nesten flat langs vannkanten, med flere små bryggestuer og sandstrender underveis. Turen egner seg like godt til en rask luftetur som til en lang dag med matpakke og bading.",
+      "start": "Parkering ved Lykkevatnet, bålplass og toalett ved start",
+      "elevation": "30 høydemeter",
+      "highlights": [
+        "Flat og barnevennlig sti",
+        "Badeplasser og bålplasser langs vannet",
+        "Åpen hele året"
+      ],
+      "tips": "Stien kan være våt om våren. Vil du bade, er sandstranden på nordsiden av vannet mest lun."
+    },
+    {
+      "id": "vindskaret",
+      "name": "Over Vindskaret",
+      "region": "Høyfjellet",
+      "difficulty": "Krevende",
+      "duration": "7–8 timer",
+      "distance": "18 km",
+      "season": "Juni–september",
+      "description": "En lang og luftig fjelltur for deg som ønsker en skikkelig dag ute.",
+      "image": "https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=85",
+      "alt": "Fjellrygg med utsikt over landskapet",
+      "longDescription": "Over Vindskaret er en lang og krevende fjelltur for deg som er i god form. Ruten krysser to skar og en luftig rygg med utsikt til alle kanter. Det er lite skjermet underveis, og været kan skifte raskt, så turen krever planlegging og god utrustning.",
+      "start": "Parkering ved Vindskaret fjellstue, 14 km fra Grønnmark",
+      "elevation": "1 100 høydemeter",
+      "highlights": [
+        "Luftig fjellrygg med utsikt til alle kanter",
+        "Krysser to fjellskar",
+        "Egnet for den som vil ha en skikkelig dag ute"
+      ],
+      "tips": "Sjekk værmeldingen kvelden før og gå tidlig. Ta med nok vann og mat til hele dagen, det er ingen vannkilder over tregrensen."
+    },
+    {
+      "id": "kyststien",
+      "name": "Kyststien til Solvika",
+      "region": "Solkysten",
+      "difficulty": "Enkel",
+      "duration": "3 timer",
+      "distance": "8 km",
+      "season": "April–oktober",
+      "description": "En luftig tur langs kysten med lune viker, svaberg og utsikt mot havet.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=85",
+      "alt": "Kystlinje med turkis hav",
+      "longDescription": "Kyststien til Solvika følger svabergene langs havet og er en av de vakreste kystturene i Utopia. Underveis passerer du lune viker, gamle naust og små strender. Turen er enkel og godt merket, og du kan når som helst snu og gå samme vei tilbake.",
+      "start": "Parkering ved Solkysten havn, buss fra sentrum hver time",
+      "elevation": "90 høydemeter",
+      "highlights": [
+        "Svaberg og lune viker",
+        "Mulighet for bading og kajakkpadling",
+        "Utsikt mot havet hele veien"
+      ],
+      "tips": "Svabergene kan være glatte når det er vått. Ta med solkrem og vann, det er lite skygge langs stien."
+    }
+  ],
+  "destinations": [
+    {
+      "id": "nordfjell",
+      "name": "Nordfjell",
+      "region": "Utopia nord",
+      "description": "Åpne vidder, høye topper og stier som gir plass til de store tankene.",
+      "highlights": "Toppturer, utsikt og flere hytter",
+      "image": "https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=85",
+      "alt": "Fjellandskap med en tydelig sti"
+    },
+    {
+      "id": "gronnmark",
+      "name": "Grønnmark",
+      "region": "Utopia sør",
+      "description": "Skog, vann og korte turer som gjør det enkelt å komme seg ut.",
+      "highlights": "Familieturer, bading og bålplasser",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85",
+      "alt": "Sollys som slipper gjennom en grønn skog"
+    },
+    {
+      "id": "solkysten",
+      "name": "Solkysten",
+      "region": "Utopia vest",
+      "description": "Kyststier og lune viker for dager med salt luft og lave skuldre.",
+      "highlights": "Kyststi, kajakk og utsikt mot havet",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=85",
+      "alt": "Kystlinje med turkis hav"
+    }
+  ]
+}
