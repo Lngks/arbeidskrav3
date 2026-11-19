@@ -2,7 +2,7 @@
 GET http://localhost:3030/hytter
 
 ### POST
-POST http://localhost:3030/hytter/2
+POST http://localhost:3030/hytter/
 Content-Type: application/json
 
 { "navn": "Skogstua", "sted": "Lillehammer" }

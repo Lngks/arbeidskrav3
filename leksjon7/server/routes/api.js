@@ -3,9 +3,10 @@ const hytter = [{ id: 1, navn: "Fjellhytta", sted: "Hemsedal" }];
 const routes = (app) => {
     app.get("/hytter", (req, res) => res.json(hytter));
 
-    app.post("/hytter", (req, res) => {
-        hytter.push(req.body);
-        res.status(201).json(req.body);
+    app.post("/hytter/", (req, res) => {
+        const id = Math.max(0, ...hytter.map((h) => h.id ?? 0)) + 1;
+        hytter.push( { id, navn: req.body.navn, sted: req.body.sted } );
+        res.status(201).json({ id, navn: req.body.navn, sted: req.body.sted });
     });
 
     app.put("/hytter/:id", (req, res) => {
