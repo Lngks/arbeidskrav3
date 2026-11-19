@@ -15,7 +15,7 @@ export function HikesPage() {
   const [query, setQuery] = useState("")
   const [difficulty, setDifficulty] = useState<Difficulty | "Alle">("Alle")
 
-  const region = useSearchParams()[0].get("region") // fra «Finn turer i nærheten»
+  const region = useSearchParams()[0].get("region")
 
   const params = new URLSearchParams({ q: query.trim() })
   if (difficulty !== "Alle") params.set("difficulty", difficulty)

@@ -11,5 +11,4 @@ export type Cabin = {
 
 export const categories: Category[] = ["Betjent", "Selvbetjent", "Ubetjent"]
 
-// Samme områder som turene bruker, slik at hytte -> turer i nærheten treffer
 export const regions = ["Nordfjell", "Grønnmark", "Høyfjellet"]
